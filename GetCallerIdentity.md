@@ -42,10 +42,9 @@ public class GetCallerIdentityDemo {
     // 只有 子账号才能调用 AssumeRole接口
     // 阿里云主账号的AccessKeys不能用于发起AssumeRole请求
     // 请首先在RAM控制台创建子用户，并为这个用户创建AccessKeys
-//    private static final String ACCESS_KEY_ID  = "access-key-id>";
-//    private static final String ACCESS_KEY_SECRET = "<access-key-secret>";
-    private static final String ACCESS_KEY_ID  = "LTAIYXWaYd2g0u2C";
-    private static final String ACCESS_KEY_SECRET = "EY9HGITqAdhxxlq8FboPTNsO7bYSlM";
+    private static final String ACCESS_KEY_ID  = "access-key-id>";
+    private static final String ACCESS_KEY_SECRET = "<access-key-secret>";
+
     public static void main(String[] args) {
         // 创建 DefaultProfileAcsClient并实例化
         DefaultProfile profile = DefaultProfile.getProfile(REGION_ID, ACCESS_KEY_ID, ACCESS_KEY_SECRET);
