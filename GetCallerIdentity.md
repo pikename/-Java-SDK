@@ -1,4 +1,11 @@
 ```
+package sts;
+
+import com.aliyuncs.DefaultAcsClient;
+import com.aliyuncs.exceptions.ClientException;
+import com.aliyuncs.profile.DefaultProfile;
+import com.aliyuncs.sts.model.v20150401.GetCallerIdentityRequest;
+import com.aliyuncs.sts.model.v20150401.GetCallerIdentityResponse;
 public class GetCallerIdentityDemo {
     // 您的可用区ID，
     // 服务地址_附录_API 参考（STS）_API参考_访问控制-阿里云 https://help.aliyun.com/document_detail/66053.html?spm=a2c4g.11186623.6.689.6NvQAN
