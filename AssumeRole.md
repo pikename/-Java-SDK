@@ -36,6 +36,7 @@ import com.aliyuncs.profile.DefaultProfile;
  com.aliyuncs.exceptions.ClientException: NoPermission : You are not authorized to do this action. You should be authorized by RAM.
  您需要通过RAM用户给角色授权 AliyunSTSAssumeRoleAccess
  */
+ ```
 public class AssumeRoleDemo {
 
     // 您的可用区ID，
@@ -85,4 +86,4 @@ public class AssumeRoleDemo {
         }
     }
 }
-
+```
