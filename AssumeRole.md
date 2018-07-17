@@ -1,4 +1,4 @@
-＃＃　接口描述
+## 接口描述
 /**
 
  本实例介绍如何使用阿里云Java SDK调用安全令牌 STS的 AssumeRole 接口获取一个扮演该角色的临时身份
@@ -30,7 +30,7 @@
  com.aliyuncs.exceptions.ClientException: NoPermission : You are not authorized to do this action. You should be authorized by RAM.
  您需要通过RAM用户给角色授权 AliyunSTSAssumeRoleAccess
  */
-##　实例代码
+## 实例代码
 ```
 package sts;
 
